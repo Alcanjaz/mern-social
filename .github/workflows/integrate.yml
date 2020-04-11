@@ -15,6 +15,7 @@ jobs:
   runs-on: ubuntu-latest
 
   test:
+    steps:
     - uses: actions/checkout@v2
     - uses: actions/setupnode@v1
       with:
